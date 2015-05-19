@@ -7,12 +7,14 @@ permalink: /about/
     author := struct {
       Name string
       Age int
+      Location string
       Interests []string
       Languages []string
       Drinks []string
     } {
       "Chris Wagner",
       28,
+      "lol Pittsburgh somehow",
       []string{"cats", "computers", "video games made before like 2009?"},
       []string{"c#", "c++", "javascript", "go", "java"},
       []string{"tea", "beer", "but honestly I'm not good at beer so I'm fine with PBR"},
