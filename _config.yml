@@ -1,33 +1,33 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://chriswagnerblog.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
+  title: Chris Wagner's Blog
   avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  gravatar: "8ad6d9d337bb91e211a72a6745e2d9b9" # Email MD5 hash
+  description: "A magical blog experience" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
+  # header_text: >
+  #    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  #
+  #   <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  # header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: eelhovercraft@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "cawagner"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -35,9 +35,9 @@ theme:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: "twitter"
+  steam: "eelhovercraft"
+  tumblr: 
+  twitter: "chris_a_wagner"
   wordpress:
   youtube:
 
@@ -52,7 +52,7 @@ theme:
   str_email: "Email"
   str_next: "Next"
   str_prev: "Prev"
-  str_continue_reading: "Continue reading"
+  str_continue_reading: "Read full post"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
