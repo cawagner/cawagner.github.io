@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+    {% highlight go %}
     author := struct {
       Name string
       Age int
@@ -19,6 +20,7 @@ permalink: /about/
       []string{"c#", "c++", "javascript", "go", "java"},
       []string{"tea", "beer", "but honestly I'm not good at beer so I'm fine with PBR"},
     }
+    {% endhighlight %}
 
 My name is Chris Wagner. I like to write the codes but I'm also really lazy and my computer desk doesn't really have a working chair at the moment so mostly I just sit in a recliner and drink tea. I'll probably get back into coding someday. This blog is hosted on github pages because maintaining a halfway secure serving stack is actually lots of work?
 
