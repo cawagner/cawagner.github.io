@@ -36,7 +36,7 @@ theme:
   soundcloud:
   stack_exchange:  # Full URL
   steam: "eelhovercraft"
-  tumblr: 
+  tumblr:
   twitter: "chris_a_wagner"
   wordpress:
   youtube:
@@ -57,6 +57,8 @@ theme:
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
+
+excerpt_separator: ""
 
 # BUILD SETTINGS
 markdown: kramdown
